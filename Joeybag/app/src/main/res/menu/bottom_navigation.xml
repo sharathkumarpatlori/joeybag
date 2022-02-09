@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/bottom_home" />
+
+    <item
+        android:id="@+id/nav_partners"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/bottom_map" />
+
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/ic_joeybag_logo"
+        android:title="@string/bottom_about_us" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/bottom_profile" />
+
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/bottom_login" />
+
+</menu>

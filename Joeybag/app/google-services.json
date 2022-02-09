@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514968589818",
+    "project_id": "joeybag-database",
+    "storage_bucket": "joeybag-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514968589818:android:a25aa8116dd402aa5ac043",
+        "android_client_info": {
+          "package_name": "de.joeybag.joeybag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514968589818-iftc6trdir3j51dmcu921a1mt7q7tdk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx4sIXdkjxJhSt8DuzSgDCpfLHvBoBvgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514968589818-iftc6trdir3j51dmcu921a1mt7q7tdk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

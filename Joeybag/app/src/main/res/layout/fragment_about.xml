@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/joeybag_web"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/small_padding"
+    tools:context=".ui.about.AboutFragment">
+
+    <ImageView
+        android:id="@+id/joeybag_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/fragment_vertical_margin"
+        android:background="#FFEBEE"
+        android:contentDescription="@string/company_logo"
+        app:srcCompat="@drawable/ic_joeybag_logo"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/fragment_horizontal_margin">
+
+        <TextView
+            android:id="@+id/bio_text"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/bio" />
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+

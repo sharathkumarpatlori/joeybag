@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Joeybag</string>
+    <string name="company_logo">Logo of company</string>
+
+    <string name="bio">Warum "joey"?
+\n\nEin Känguru-Junges wird in Australien "joey" genannt. Es hat seinen Beutel immer dabei, kann sich darauf verlassen und den Beutel nach seinen Bedürfnissen nutzen.
+\n\nSo ist joeybag ein Beutel, den du nach deinem Bedarf flexibel leihen und zurückgeben kannst.
+        Es gilt: einen Beutel nutzen statt zehn zu besitzen. Durch das Kreislaufsystem bleibt er nach Rückgabe anderen joeys erhalten - aus Einweg wird Mehrweg.
+Darum und um beste Qualität und einwandfreie Hygiene kümmern wir uns.
+Was dir bleibt ist ein Beitrag zum Schutz unserer Ressourcen und Klimas geleistet zu haben. Danke, dass du Teil davon bist!
+\n\nÜber uns
+\n\nWir glauben, dass für die Zukunft der Einkaufstasche mehr Mehrweg wirklich sinnvoll ist!
+\n\nDeshalb arbeiten wir, Sarah und Jakob, seit dem Herbst 2019 an unserer Vision ein umweltfreundliches Kreislaufsystem für Einkaufsbeutel zu erschaffen.
+Begonnen haben wir im Rahmen eines Projekts an der Hochschule Karlsruhe, wo wir uns im Master-Studiengang Technologie-Entrepreneurship kennenlernten.
+Während des Projekts wurde die Idee für ein solches Pfandbeutel-System geboren, da so Ressourcen besser genutzt werden, reißfeste und hochwertige Beutel zu geringen Preisen angeboten werden können und im Fall der vergessenen Tasche, Personen nicht unnütze neue Taschen kaufen müssen.
+Schlechtes Gewissen ade!
+\n\nAls junges Startup aus Karlsruhe dürfen wir nun mit einem erfahrenen Partner im textilsharing, der MEWA Textilmanagement AG, diesen neuen Weg beschreiten. \n\n    </string>
+
+    <string name="what_is_your_name">Geben sie hier ihren Namen ein?</string>
+    <string name="done">bestätigen</string>
+    <!-- time pass -->
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="play">abspielen</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="prompt_re_enter_password">gib Ihr Passwort noch einmal ein</string>
+    <string name="prompt_confirm_password">Geben Sie Ihr Passwort ein, um die Änderungen zu bestätigen</string>
+    <string name="gender">Geschlecht: </string>
+    <string name="phone_number">Telefonnummer</string>
+    <string name="address">Addresse</string>
+    <string name="action_register">Registrieren</string>
+    <string name="action_login">Einloggen</string>
+    <string name="action_logout">Ausloggen</string>
+    <string name="welcome">Herzlich willkommen!</string>
+    <string name="NewUser">neuer Benutzer?</string>
+    <string name="invalid_username">Kein gültiger Benutzername</string>
+    <string name="invalid_password">Passwort muss 7 Zeichen lang sein</string>
+    <string name="ForgotPassword">Passwort vergessen</string>
+    <string name="login_failed">Anmeldung fehlgeschlagen</string>
+    <string name="WaysToSignIn">Möglichkeiten zur Anmeldung</string>
+    <string name="bottom_home">Home</string>
+    <string name="bottom_map">Karte</string>
+    <string name="bottom_profile">Profil</string>
+    <string name="bottom_login">Einloggen</string>
+    <string name="bottom_about_us">Über uns</string>
+    <string name="RememberMe">Mich erinnern</string>
+    <string name="GoogleIcon">Einloggen mit Gmail</string>
+    <string name="FbIcon">Einloggen mit Facebook</string>
+    <string name="logo">Es ist unsere Logo</string>
+    <string name="Customer">Joeybag - Konto erstellen</string>
+    <string name="Partner">Es ist unsere Partner</string>
+    <string name="FirstName">Geben Sie Ihr Vorname</string>
+    <string name="LastName">Geben Sie Ihr Nachname</string>
+    <string name="Mobile">Geben Sie Ihr Mobil Nummer</string>
+    <string name="City">Geben Sie Ihr Stadt</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="verify_your_email">Email Verification Page !!</string>
+    <string name="email_verification_link">Email Verification Link is sent to your Inbox</string>
+    <string name="resend_email_link">resend verification link</string>
+
+
+
+</resources>

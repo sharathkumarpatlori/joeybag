@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="sign_in_text_size">15sp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="top_padding">16dp</dimen>
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="register_button_align_with_scrollview">32dp</dimen>
+    <dimen name="answer_text_size">18sp</dimen>
+    <dimen name="question_text_size">30sp</dimen>
+    <dimen name="image_header_height">192dp</dimen>
+    <dimen name="game_over_height">350dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+</resources>
