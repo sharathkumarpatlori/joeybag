@@ -27,7 +27,10 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
 import de.joeybag.joeybag.R
+import de.joeybag.joeybag.ui.forgotpassword.ForgotPasswordFragment
 import de.joeybag.joeybag.ui.login.GoogleSignInActivity
+import de.joeybag.joeybag.ui.register.RegisterFragment
+import de.joeybag.joeybag.ui.register.RegistrationSuccessfulActivity
 import java.util.regex.Pattern
 
 class LoginFragment : Fragment() {
@@ -38,7 +41,6 @@ class LoginFragment : Fragment() {
     lateinit var register: Button
     lateinit var forgotPassword: Button
     lateinit var googleLogIn: SignInButton
-
 
     var email: String? = ""
     var password: String? = ""
@@ -66,6 +68,18 @@ class LoginFragment : Fragment() {
         login.setOnClickListener(View.OnClickListener {
             checkCredentials()
         })
+
+        register.setOnClickListener(View.OnClickListener { _: View? ->
+            val registrationFormIntent = Intent(view.context, RegisterPage::class.java)
+            startActivity(registrationFormIntent)
+            requireActivity().finish()
+       })
+
+       forgotPassword.setOnClickListener(View.OnClickListener { _: View? ->
+           val forgotPasswordWindowIntent = Intent(view.context, ForgotPasswordPage::class.java)
+           startActivity(forgotPasswordWindowIntent)
+           requireActivity().finish()
+       })
 
         googleLogIn.setOnClickListener(View.OnClickListener {
                 GoogleSignInActivity()

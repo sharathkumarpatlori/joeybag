@@ -14,7 +14,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.installations.local.PersistedInstallation
 import com.google.firebase.ktx.Firebase
 import de.joeybag.joeybag.R
 
@@ -48,7 +47,7 @@ class RegisterFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val view = inflater.inflate(R.layout.fragment_regsiter, container, false)
+        val view = inflater.inflate(R.layout.fragment_register, container, false)
         firstNameCustomer = view.findViewById(R.id.firstname)
         lastNameCustomer = view.findViewById(R.id.lastname)
         emailCustomer = view.findViewById(R.id.emailaddress)

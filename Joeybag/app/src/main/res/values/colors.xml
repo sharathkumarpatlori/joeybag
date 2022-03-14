@@ -7,6 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="green_500">#158E47</color>
+    <color name="green_700">#3CB36D</color>
     <color name="colorAccent">#76bf5e</color>
     <color name="joeybag_web">#FFEBEE</color>
     <color name="email_page_color">#E61010</color>

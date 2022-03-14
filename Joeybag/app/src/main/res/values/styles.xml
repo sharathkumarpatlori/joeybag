@@ -9,10 +9,21 @@
         <item name="android:textColorHint">@color/black</item>
         <item name="android:textSize">@dimen/text_size</item>
     </style>
+
     <style name="TextFieldStyle">
          <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textColorHint">@color/black</item>
         <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="headingText">
+    <item name="android:fontFamily">@font/century_gothic_regular</item>
+    <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="middleText" >
+        <item name="android:fontFamily">@font/century_gothic_bold</item>
+        <item name="android:textSize">20sp</item>
     </style>
 </resources>

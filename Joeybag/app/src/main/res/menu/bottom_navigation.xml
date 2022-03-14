@@ -20,9 +20,9 @@
         android:icon="@drawable/ic_baseline_person_24"
         android:title="@string/bottom_profile" />
 
-    <item
-        android:id="@+id/nav_login"
-        android:icon="@drawable/ic_baseline_person_24"
-        android:title="@string/bottom_login" />
+<!--    <item-->
+<!--        android:id="@+id/nav_login"-->
+<!--        android:icon="@drawable/ic_baseline_person_24"-->
+<!--        android:title="@string/bottom_login" />-->
 
 </menu>

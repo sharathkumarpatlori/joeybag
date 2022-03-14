@@ -43,6 +43,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:autofillHints="username"
+                    android:fontFamily="@font/roboto"
                     android:hint="@string/prompt_email"
                     android:inputType="textEmailAddress" />
 
@@ -126,15 +127,16 @@
                     android:textColor="@android:color/black"
                     android:textSize="@dimen/sign_in_text_size" />
 
-                <com.google.android.gms.common.SignInButton
+                <ImageButton
                     android:id="@+id/google_icon"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginEnd="10dp"
-                    android:background="@null"
-                    android:contentDescription="@string/GoogleIcon"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/common_google_signin_btn_text_dark_normal_background" />
+                    android:background="@null"
+                    android:src="@drawable/icon_google"
+                    android:contentDescription="@string/GoogleIcon"/>
 
                 <ImageButton
                     android:id="@+id/fb_icon"
@@ -143,12 +145,11 @@
                     android:background="@null"
                     android:contentDescription="@string/FbIcon"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/ic_fb_logo" />
+                    android:src="@drawable/icon_facebook" />
 
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

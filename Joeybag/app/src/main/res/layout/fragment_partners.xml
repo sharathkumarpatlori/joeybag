@@ -5,10 +5,15 @@
     android:layout_height="match_parent"
     tools:context="de.joeybag.joeybag.ui.partners.PartnersFragment">
 
-    <fragment
-        android:name="com.google.android.gms.maps.SupportMapFragment"
+    <com.google.android.gms.maps.MapView
         android:id="@+id/map"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
 </FrameLayout>
+
+    <!--    <org.osmdroid.views.MapView-->
+    <!--        android:id="@+id/mapview"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        />-->

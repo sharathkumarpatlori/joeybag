@@ -9,7 +9,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import de.joeybag.joeybag.R
 
-
 class AboutFragment : Fragment() {
 
     private lateinit var binding: AboutFragment
@@ -26,14 +25,4 @@ class AboutFragment : Fragment() {
 
 }
 
-//data class CustomerName(var name: String = "", var hidden: String = "")
-
-// Instance of MyName data class.
-// private val customerName: CustomerName = CustomerName("Unsere Team")
-
-// binding = DataBindingUtil.setContentView<AboutFragment>(this, R.layout.fragment_about)
-//setContentView(R.layout.activity_main)
-//findViewById<Button>(R.id.done_button).setOnClickListener {
-//    addName(it)
-//}
 

@@ -55,11 +55,15 @@ Schlechtes Gewissen ade!
     <string name="Mobile">Geben Sie Ihr Mobil Nummer</string>
     <string name="City">Geben Sie Ihr Stadt</string>
 
+    <string name="profile_details">Persönliche Daten</string>
+    <string name="profile_activity">Vermietungsaktivität</string>
+
     <string name="title_activity_maps">Map</string>
     <string name="verify_your_email">Email Verification Page !!</string>
     <string name="email_verification_link">Email Verification Link is sent to your Inbox</string>
     <string name="resend_email_link">resend verification link</string>
-
+    <string name="Submit_Button">Submit</string>
+    <string name="password_re_enter">Passwort eingeben</string>
 
 
 </resources>
